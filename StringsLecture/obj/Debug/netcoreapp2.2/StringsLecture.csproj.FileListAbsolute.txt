@@ -1,0 +1,11 @@
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\StringsLecture\bin\Debug\netcoreapp2.2\StringsLecture.deps.json
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\StringsLecture\bin\Debug\netcoreapp2.2\StringsLecture.runtimeconfig.json
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\StringsLecture\bin\Debug\netcoreapp2.2\StringsLecture.runtimeconfig.dev.json
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\StringsLecture\bin\Debug\netcoreapp2.2\StringsLecture.dll
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\StringsLecture\bin\Debug\netcoreapp2.2\StringsLecture.pdb
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\StringsLecture\obj\Debug\netcoreapp2.2\StringsLecture.csprojAssemblyReference.cache
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\StringsLecture\obj\Debug\netcoreapp2.2\StringsLecture.csproj.CoreCompileInputs.cache
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\StringsLecture\obj\Debug\netcoreapp2.2\StringsLecture.AssemblyInfoInputs.cache
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\StringsLecture\obj\Debug\netcoreapp2.2\StringsLecture.AssemblyInfo.cs
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\StringsLecture\obj\Debug\netcoreapp2.2\StringsLecture.dll
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\StringsLecture\obj\Debug\netcoreapp2.2\StringsLecture.pdb
