@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\7-18-VALIDATION-HANDLING\\7-18-VALIDATION-HANDLING.csproj": {}
+  },
+  "projects": {
+    "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\7-18-VALIDATION-HANDLING\\7-18-VALIDATION-HANDLING.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\7-18-VALIDATION-HANDLING\\7-18-VALIDATION-HANDLING.csproj",
+        "projectName": "7-18-VALIDATION-HANDLING",
+        "projectPath": "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\7-18-VALIDATION-HANDLING\\7-18-VALIDATION-HANDLING.csproj",
+        "packagesPath": "C:\\Users\\jjackson20\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\7-18-VALIDATION-HANDLING\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jjackson20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://quget.rockfin.com/api": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
