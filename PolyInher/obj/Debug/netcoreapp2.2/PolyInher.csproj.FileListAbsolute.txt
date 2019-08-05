@@ -1,0 +1,11 @@
+C:\Users\jjackson20\source\repos\PolyInher\bin\Debug\netcoreapp2.2\PolyInher.deps.json
+C:\Users\jjackson20\source\repos\PolyInher\bin\Debug\netcoreapp2.2\PolyInher.runtimeconfig.json
+C:\Users\jjackson20\source\repos\PolyInher\bin\Debug\netcoreapp2.2\PolyInher.runtimeconfig.dev.json
+C:\Users\jjackson20\source\repos\PolyInher\bin\Debug\netcoreapp2.2\PolyInher.dll
+C:\Users\jjackson20\source\repos\PolyInher\bin\Debug\netcoreapp2.2\PolyInher.pdb
+C:\Users\jjackson20\source\repos\PolyInher\obj\Debug\netcoreapp2.2\PolyInher.csprojAssemblyReference.cache
+C:\Users\jjackson20\source\repos\PolyInher\obj\Debug\netcoreapp2.2\PolyInher.csproj.CoreCompileInputs.cache
+C:\Users\jjackson20\source\repos\PolyInher\obj\Debug\netcoreapp2.2\PolyInher.AssemblyInfoInputs.cache
+C:\Users\jjackson20\source\repos\PolyInher\obj\Debug\netcoreapp2.2\PolyInher.AssemblyInfo.cs
+C:\Users\jjackson20\source\repos\PolyInher\obj\Debug\netcoreapp2.2\PolyInher.dll
+C:\Users\jjackson20\source\repos\PolyInher\obj\Debug\netcoreapp2.2\PolyInher.pdb

@@ -1,0 +1,11 @@
+C:\Users\jjackson20\source\repos\OOPYouKknowMe\bin\Debug\netcoreapp2.2\OOPYouKknowMe.deps.json
+C:\Users\jjackson20\source\repos\OOPYouKknowMe\bin\Debug\netcoreapp2.2\OOPYouKknowMe.runtimeconfig.json
+C:\Users\jjackson20\source\repos\OOPYouKknowMe\bin\Debug\netcoreapp2.2\OOPYouKknowMe.runtimeconfig.dev.json
+C:\Users\jjackson20\source\repos\OOPYouKknowMe\bin\Debug\netcoreapp2.2\OOPYouKknowMe.dll
+C:\Users\jjackson20\source\repos\OOPYouKknowMe\bin\Debug\netcoreapp2.2\OOPYouKknowMe.pdb
+C:\Users\jjackson20\source\repos\OOPYouKknowMe\obj\Debug\netcoreapp2.2\OOPYouKknowMe.csprojAssemblyReference.cache
+C:\Users\jjackson20\source\repos\OOPYouKknowMe\obj\Debug\netcoreapp2.2\OOPYouKknowMe.csproj.CoreCompileInputs.cache
+C:\Users\jjackson20\source\repos\OOPYouKknowMe\obj\Debug\netcoreapp2.2\OOPYouKknowMe.AssemblyInfoInputs.cache
+C:\Users\jjackson20\source\repos\OOPYouKknowMe\obj\Debug\netcoreapp2.2\OOPYouKknowMe.AssemblyInfo.cs
+C:\Users\jjackson20\source\repos\OOPYouKknowMe\obj\Debug\netcoreapp2.2\OOPYouKknowMe.dll
+C:\Users\jjackson20\source\repos\OOPYouKknowMe\obj\Debug\netcoreapp2.2\OOPYouKknowMe.pdb
