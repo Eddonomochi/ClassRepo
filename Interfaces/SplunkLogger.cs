@@ -4,14 +4,11 @@ using System.Text;
 
 namespace Interfaces
 {
-    class EmailLogger : ILogger
+    class SplunkLogger : ILogger
     {
-        private string _emailAddress = "awesomeEmail@Email.com";
-
         public void Log(object error)
         {
-            Console.WriteLine($"logging to {_emailAddress}");
+            Console.WriteLine($"logging splunk error: {error} to our splunk server");
         }
-
     }
 }

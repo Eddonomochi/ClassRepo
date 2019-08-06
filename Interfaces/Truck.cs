@@ -1,39 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Text;
 
-namespace Interfaces
-{
-    public class Truck : CarBase, IGPS, ITurbo
-    {
-        public Truck(string make, string model, string color, int mileage, bool isFourWheelDrive, int bedLength, Driver driver)
-            : base(make, model, color, mileage, driver)
-        {
-            IsFourWheelDrive = isFourWheelDrive;
-            BedLength = bedLength;
-        }
+//namespace Interfaces
+//{
+//    public class Truck : CarBase, IGPS, ITurbo
+//    {
+//        //public Truck(string make, string model, string color, int mileage, bool isFourWheelDrive, int bedLength, Driver driver)
 
-        public bool IsFourWheelDrive { get; set; }
-        public int BedLength { get; set; }
+//        //{
+//        //    IsFourWheelDrive = isFourWheelDrive;
+//        //    BedLength = bedLength;
+//        //}
 
-        public override void Brake()
-        {
-            Console.WriteLine("screehhh..hWW@!!");
-        }
+//        public bool IsFourWheelDrive { get; set; }
+//        public int BedLength { get; set; }
 
-        public void GoFaster()
-        {
-            Console.WriteLine("If theres any sedans in the  way, you will crush your enemies.");
-        }
+//        public override void Brake()
+//        {
+//            Console.WriteLine("screehhh..hWW@!!");
+//        }
 
-        public override void Honk()
-        {
-            Console.WriteLine("HONK!!!");
-        }
+//        public void GoFaster()
+//        {
+//            Console.WriteLine("If theres any sedans in the  way, you will crush your enemies.");
+//        }
 
-        public void Navigate()
-        {
-            Console.WriteLine("finding fastest route, Do not speed, you will stick out like a sore thumb");
-        }
-    }
-}
+//        public override void Honk()
+//        {
+//            Console.WriteLine("HONK!!!");
+//        }
+
+//        public void Navigate()
+//        {
+//            Console.WriteLine("finding fastest route, Do not speed, you will stick out like a sore thumb");
+//        }
+//    }
+//}

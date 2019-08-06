@@ -9,3 +9,14 @@ C:\Users\jjackson20\source\repos\Interfaces\obj\Debug\netcoreapp2.2\Interfaces.A
 C:\Users\jjackson20\source\repos\Interfaces\obj\Debug\netcoreapp2.2\Interfaces.AssemblyInfo.cs
 C:\Users\jjackson20\source\repos\Interfaces\obj\Debug\netcoreapp2.2\Interfaces.dll
 C:\Users\jjackson20\source\repos\Interfaces\obj\Debug\netcoreapp2.2\Interfaces.pdb
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\Interfaces\obj\Debug\netcoreapp2.2\Interfaces.csprojAssemblyReference.cache
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\Interfaces\obj\Debug\netcoreapp2.2\Interfaces.csproj.CoreCompileInputs.cache
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\Interfaces\obj\Debug\netcoreapp2.2\Interfaces.AssemblyInfoInputs.cache
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\Interfaces\obj\Debug\netcoreapp2.2\Interfaces.AssemblyInfo.cs
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\Interfaces\obj\Debug\netcoreapp2.2\Interfaces.dll
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\Interfaces\obj\Debug\netcoreapp2.2\Interfaces.pdb
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\Interfaces\bin\Debug\netcoreapp2.2\Interfaces.deps.json
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\Interfaces\bin\Debug\netcoreapp2.2\Interfaces.runtimeconfig.json
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\Interfaces\bin\Debug\netcoreapp2.2\Interfaces.runtimeconfig.dev.json
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\Interfaces\bin\Debug\netcoreapp2.2\Interfaces.dll
+C:\Development\GRAND CIRCUS\AHBC_2019_JULY\Interfaces\bin\Debug\netcoreapp2.2\Interfaces.pdb

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Interfaces
 {
-    interface ITurbo
+    public interface ITurbo
     {
         void GoFaster();
     }

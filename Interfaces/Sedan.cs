@@ -6,8 +6,8 @@ namespace Interfaces
 {
     public class Sedan : CarBase, IGPS, ITurbo
     {
-        public Sedan(string make, string model, string color, int mileage, Driver driver) 
-           : base(make, model, color, mileage, driver)
+        public Sedan(string make, string model, string color, int mileage, Driver driver, Tire[] tires) 
+           : base(make, model, color, mileage, driver, tires)
         {
         }
 
@@ -18,14 +18,14 @@ namespace Interfaces
             Console.WriteLine("...puh");
         }
 
-        public void GoFaster()
-        {
-            Console.WriteLine("JANE STOP THIS CRAZY THING!!!");
-        }
-
         public override void Honk()
         {
             Console.WriteLine("beep!");
+        }
+
+        public void GoFaster()
+        {
+            Console.WriteLine("JANE STOP THIS CRAZY THING!!!");
         }
 
         public void Navigate()

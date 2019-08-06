@@ -4,14 +4,13 @@ using System.Text;
 
 namespace Interfaces
 {
-    class EmailLogger : ILogger
+    public class TextLogger : ILogger
     {
-        private string _emailAddress = "awesomeEmail@Email.com";
+        private int _phoneNumber = 1112223333;
 
         public void Log(object error)
         {
-            Console.WriteLine($"logging to {_emailAddress}");
+            Console.WriteLine($"Now texting {error} to {_phoneNumber}");
         }
-
     }
 }
