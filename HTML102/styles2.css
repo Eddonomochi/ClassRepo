@@ -1,0 +1,79 @@
+body, ul, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    height: 100vh;
+    flex: 1 1 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    height: 10%;
+    background-color: green;
+
+}
+
+header ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header > ul > li {
+    list-style-type: none;
+}
+
+header > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > ul > li > a:hover {
+    color: wheat;
+}
+
+content {
+    display: flex;
+
+    flex: 1 1 auto;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    
+    height: auto;
+
+}
+
+footer {
+    display: flex;
+    
+    align-items: center;
+
+    height: 10%;
+
+    background-color: blue;
+}
+
+footer > h1 {
+    margin-left: 10%;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 20%;
+    height: 20%;
+
+    background-color: green;
+    border: 10px solid black;
+}
