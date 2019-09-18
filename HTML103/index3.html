@@ -8,11 +8,19 @@
 </head>
 <body>
 
-    <ul id="list">
-
+    <ul id="form-list">
     </ul>
 
-    <button onclick="clickHandler()">Sup Button</button>
+
+    <!-- for every event in html, you can pass an optional event
+    object to your function -->
+    <form id="list-form">
+        <input id="user-input" />
+
+        <button>ADD TO LIST</button>
+    </form>
+
+    <button onclick="clickHandler(this)">Sup Button</button>
     
     <script src="main3.js">        
     </script>
