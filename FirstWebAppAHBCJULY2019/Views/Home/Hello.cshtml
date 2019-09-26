@@ -1,0 +1,26 @@
+﻿@model FirstWebAppAHBCJULY2019.Models.HelloModel
+
+@{
+    ViewData["Title"] = "Hello! (ヘ･_･)ヘ┳━┳";
+
+    var name = "James";
+}
+
+<p>Hello World!</p>
+<h2>sup dude, your name is @name</h2>
+
+<ul>
+    @foreach (var person in Model.People)
+    {
+        <li>@person</li>
+    }
+</ul>
+
+@if (Model.IsABabyBoy)
+{
+    <h3>I'm just baby boy</h3>
+}
+else
+{
+    <h3>well thats good, because that would be strange...</h3>
+}
