@@ -1,0 +1,14 @@
+﻿@model StartupExample.Models.HelloViewModel
+
+@{
+    ViewData["Title"] = "(～￣(OO)￣)ブ";
+}
+
+<h1>@Model.HelloMessage</h1>
+
+<ol>
+    @foreach (var otherMessage in Model.OtherMessages)
+    {
+        <li>@otherMessage</li>
+    }
+</ol>
