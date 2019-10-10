@@ -31,7 +31,9 @@ namespace StartupExample
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+
             services.AddSingleton<IFridge, LGFridge>();
+            services.AddSingleton<IFoodService, TacoStand>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

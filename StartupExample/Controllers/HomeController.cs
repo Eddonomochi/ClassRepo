@@ -11,10 +11,12 @@ namespace StartupExample.Controllers
     public class HomeController : Controller
     {
         private readonly IFridge _fridgeService;
+        private readonly IFoodService _foodService;
 
-        public HomeController(IFridge fridgeService)
+        public HomeController(IFridge fridgeService, IFoodService foodService)
         {
             _fridgeService = fridgeService;
+            _foodService = foodService;
         }
 
         public IActionResult Index()
