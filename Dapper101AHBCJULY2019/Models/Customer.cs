@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Dapper101AHBCJULY2019.Models
 {
-    public class Customer
+    public class CustomerViewModel
     {
         public string Id { get; set; }
         public string CompanyName { get; set; }
