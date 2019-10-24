@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Dapper101AHBCJULY2019.DAL;
 using Dapper101AHBCJULY2019.NorthwindServices;
+using Dapper101AHBCJULY2019.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Dapper101AHBCJULY2019.Controllers
@@ -37,6 +38,19 @@ namespace Dapper101AHBCJULY2019.Controllers
         {
             var customer = _customerService.GetCustomer(id);
             return View(customer);
+        }
+
+        public IActionResult AddCustomerResult(AddCustomerViewModel model)
+        {
+            var customersViewModel = _customerService.AddCustomer(model);
+
+            return View("Customers", customersViewModel);
+        }
+
+        public IActionResult AddCustomer()
+        {
+
+            return View();
         }
     }
 }

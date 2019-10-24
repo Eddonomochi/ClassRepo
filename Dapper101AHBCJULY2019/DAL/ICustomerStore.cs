@@ -13,8 +13,8 @@ namespace Dapper101AHBCJULY2019.DAL
     {
         IEnumerable<CustomerDALModel> SelectAllCustomers();
         CustomerDALModel SelectCustomerByFirstName(string firstName);
-
         CustomerDALModel SelectCustomerById(string id);
+        bool InsertNewCustomer(CustomerDALModel dalModel);
     }
 
     public class CustomerStore : ICustomerStore
@@ -58,6 +58,19 @@ namespace Dapper101AHBCJULY2019.DAL
                 var result = connection.QueryFirstOrDefault<CustomerDALModel>(sql, new { CustomerID = id });
 
                 return result;
+            }
+        }
+
+        public bool InsertNewCustomer(CustomerDALModel dalModel)
+        {
+            var sql = $@"Insert INTO Customers (ContactName, City, ContactTitle, CustomerID, CompanyName) 
+                        Values (@{nameof(dalModel.ContactName)}, @{nameof(dalModel.City)}, @{nameof(dalModel.ContactTitle)}, @{nameof(dalModel.CustomerID)}, @{nameof(dalModel.CompanyName)})";
+
+            using (var connection = new SqlConnection(_config.ConnectionString))
+            {
+                var result = connection.Execute(sql, dalModel);
+
+                return true;
             }
         }
     }

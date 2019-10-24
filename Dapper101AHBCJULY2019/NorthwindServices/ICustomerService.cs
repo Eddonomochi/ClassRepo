@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
@@ -13,6 +14,7 @@ namespace Dapper101AHBCJULY2019.NorthwindServices
     {
         CustomersViewModel GetCustomers();
         CustomerViewModel GetCustomer(string id);
+        CustomersViewModel AddCustomer(AddCustomerViewModel model);
     }
 
     public class CustomerService : ICustomerService
@@ -28,17 +30,7 @@ namespace Dapper101AHBCJULY2019.NorthwindServices
         {
             var dalCustomers = _customerStore.SelectAllCustomers();
 
-            var customers = new List<CustomerListItemViewModel>();
-
-            foreach (var dalCustomer in dalCustomers)
-            {
-                customers.Add(new CustomerListItemViewModel(dalCustomer));
-            }
-
-            var customerViewModel = new CustomersViewModel();
-            customerViewModel.Customers = customers;
-
-            return customerViewModel;
+            return MapCustomersViewModel(dalCustomers);
         }
 
         public CustomerViewModel GetCustomer(string id)
@@ -48,6 +40,17 @@ namespace Dapper101AHBCJULY2019.NorthwindServices
             var customer = MapCustomerViewModel(dalCustomer);
 
             return customer;
+        }
+
+        public CustomersViewModel AddCustomer(AddCustomerViewModel model)
+        {
+            var dalModel = MapToCustomerDalModel(model);
+
+            _customerStore.InsertNewCustomer(dalModel);
+
+            var dalCustomers = _customerStore.SelectAllCustomers();
+
+            return MapCustomersViewModel(dalCustomers);
         }
 
         private CustomerViewModel MapCustomerViewModel(CustomerDALModel dalCustomer)
@@ -64,5 +67,32 @@ namespace Dapper101AHBCJULY2019.NorthwindServices
             customer.Country = dalCustomer.Country;
             return customer;
         }
+
+        private CustomerDALModel MapToCustomerDalModel(AddCustomerViewModel src)
+        {
+            var dalCustomer = new CustomerDALModel();
+            dalCustomer.ContactName = src.Name;
+            dalCustomer.ContactTitle = src.Title;
+            dalCustomer.City = src.City;
+            dalCustomer.CompanyName = "Grand Circus";
+            dalCustomer.CustomerID = Guid.NewGuid().ToString().Substring(0, 5);
+            return dalCustomer;
+        }
+
+        private CustomersViewModel MapCustomersViewModel(IEnumerable<CustomerDALModel> dalCustomers)
+        {
+            var customers = new List<CustomerListItemViewModel>();
+
+            foreach (var dalCustomer in dalCustomers)
+            {
+                customers.Add(new CustomerListItemViewModel(dalCustomer));
+            }
+
+            var customerViewModel = new CustomersViewModel();
+            customerViewModel.Customers = customers;
+
+            return customerViewModel;
+        }
+
     }
 }
