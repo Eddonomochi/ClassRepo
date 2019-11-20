@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Identity.Dapper" Version="0.8.3-alpha" />
+    <PackageReference Include="Identity.Dapper.SqlServer" Version="0.8.3-alpha" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Models\AccountViewModels\" />
+    <Folder Include="Models\ManageViewModels\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>

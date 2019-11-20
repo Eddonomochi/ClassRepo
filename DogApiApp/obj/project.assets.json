@@ -12940,11 +12940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jjackson20\\source\\repos\\DogApiApp\\DogApiApp.csproj",
+      "projectUniqueName": "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\DogApiApp\\DogApiApp.csproj",
       "projectName": "DogApiApp",
-      "projectPath": "C:\\Users\\jjackson20\\source\\repos\\DogApiApp\\DogApiApp.csproj",
+      "projectPath": "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\DogApiApp\\DogApiApp.csproj",
       "packagesPath": "C:\\Users\\jjackson20\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jjackson20\\source\\repos\\DogApiApp\\obj\\",
+      "outputPath": "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\DogApiApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
