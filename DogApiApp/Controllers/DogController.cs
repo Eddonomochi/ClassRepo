@@ -17,6 +17,11 @@ namespace DogApiApp.Controllers
         {
             var result = await _dogFacade.GetDogViewModel();
             return View(result);
-        }
+
+
+
+
+         
+        } 
     }
 }

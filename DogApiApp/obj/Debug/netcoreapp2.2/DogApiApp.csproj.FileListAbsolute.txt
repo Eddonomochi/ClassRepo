@@ -31,3 +31,10 @@ C:\Users\jjackson20\source\repos\DogApiApp\obj\Debug\netcoreapp2.2\DogApiApp.dll
 C:\Users\jjackson20\source\repos\DogApiApp\obj\Debug\netcoreapp2.2\DogApiApp.pdb
 C:\Users\jjackson20\source\repos\DogApiApp\obj\Debug\netcoreapp2.2\DogApiApp.csproj.CopyComplete
 C:\Users\jjackson20\source\repos\DogApiApp\obj\Debug\netcoreapp2.2\Razor\Views\Dog\Dog.cshtml.g.cs
+C:\Users\customer\source\ClassStuff\DogApiApp\obj\Debug\netcoreapp2.2\DogApiApp.csprojAssemblyReference.cache
+C:\Users\customer\source\ClassStuff\DogApiApp\obj\Debug\netcoreapp2.2\DogApiApp.RazorAssemblyInfo.cache
+C:\Users\customer\source\ClassStuff\DogApiApp\obj\Debug\netcoreapp2.2\DogApiApp.RazorAssemblyInfo.cs
+C:\Users\customer\source\ClassStuff\DogApiApp\obj\Debug\netcoreapp2.2\DogApiApp.AssemblyInfoInputs.cache
+C:\Users\customer\source\ClassStuff\DogApiApp\obj\Debug\netcoreapp2.2\DogApiApp.AssemblyInfo.cs
+C:\Users\customer\source\ClassStuff\DogApiApp\obj\Debug\netcoreapp2.2\DogApiApp.dll
+C:\Users\customer\source\ClassStuff\DogApiApp\obj\Debug\netcoreapp2.2\DogApiApp.pdb

@@ -9,9 +9,9 @@ namespace DogApiApp.Services
     {
         public async Task<DogResponse> GetDog()
         {
-            using (var httpClient = new HttpClient { BaseAddress = new Uri("https://dog.ceo") })
+            using (var httpClient = new HttpClient { BaseAddress = new Uri("https://swapi.co") })
             {
-                var result = await httpClient.GetStringAsync("/api/breeds/image/random");
+                var result = await httpClient.GetStringAsync("/api/planets");
                 return JsonConvert.DeserializeObject<DogResponse>(result);
             }
         }

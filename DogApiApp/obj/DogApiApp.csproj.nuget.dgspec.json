@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jjackson20\\source\\repos\\DogApiApp\\DogApiApp.csproj": {}
+    "C:\\Users\\customer\\source\\ClassStuff\\DogApiApp\\DogApiApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jjackson20\\source\\repos\\DogApiApp\\DogApiApp.csproj": {
+    "C:\\Users\\customer\\source\\ClassStuff\\DogApiApp\\DogApiApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jjackson20\\source\\repos\\DogApiApp\\DogApiApp.csproj",
+        "projectUniqueName": "C:\\Users\\customer\\source\\ClassStuff\\DogApiApp\\DogApiApp.csproj",
         "projectName": "DogApiApp",
-        "projectPath": "C:\\Users\\jjackson20\\source\\repos\\DogApiApp\\DogApiApp.csproj",
-        "packagesPath": "C:\\Users\\jjackson20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jjackson20\\source\\repos\\DogApiApp\\obj\\",
+        "projectPath": "C:\\Users\\customer\\source\\ClassStuff\\DogApiApp\\DogApiApp.csproj",
+        "packagesPath": "C:\\Users\\customer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\customer\\source\\ClassStuff\\DogApiApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jjackson20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\customer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://qugetgal.rockfin.com/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {

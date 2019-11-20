@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\Dapper101AHBCJULY2019\\Dapper101AHBCJULY2019.csproj": {}
+    "C:\\Users\\customer\\source\\ClassStuff\\Dapper101AHBCJULY2019\\Dapper101AHBCJULY2019.csproj": {}
   },
   "projects": {
-    "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\Dapper101AHBCJULY2019\\Dapper101AHBCJULY2019.csproj": {
+    "C:\\Users\\customer\\source\\ClassStuff\\Dapper101AHBCJULY2019\\Dapper101AHBCJULY2019.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\Dapper101AHBCJULY2019\\Dapper101AHBCJULY2019.csproj",
+        "projectUniqueName": "C:\\Users\\customer\\source\\ClassStuff\\Dapper101AHBCJULY2019\\Dapper101AHBCJULY2019.csproj",
         "projectName": "Dapper101AHBCJULY2019",
-        "projectPath": "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\Dapper101AHBCJULY2019\\Dapper101AHBCJULY2019.csproj",
-        "packagesPath": "C:\\Users\\jjackson20\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\GRAND CIRCUS\\AHBC_2019_JULY\\Dapper101AHBCJULY2019\\obj\\",
+        "projectPath": "C:\\Users\\customer\\source\\ClassStuff\\Dapper101AHBCJULY2019\\Dapper101AHBCJULY2019.csproj",
+        "packagesPath": "C:\\Users\\customer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\customer\\source\\ClassStuff\\Dapper101AHBCJULY2019\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jjackson20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\customer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://qugetgal.rockfin.com/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
